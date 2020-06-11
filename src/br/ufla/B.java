@@ -29,4 +29,9 @@ public class B {
         String nome = new Object(){}.getClass().getEnclosingMethod().getName();
         System.out.println(nome);
     }
+
+    public void MB3(){
+        String nome = new Object(){}.getClass().getEnclosingMethod().getName();
+        System.out.println(nome);
+    }
 }

@@ -29,4 +29,9 @@ public class C {
         String nome = new Object(){}.getClass().getEnclosingMethod().getName();
         System.out.println(nome);
     }
+
+    public void MC3(){
+        String nome = new Object(){}.getClass().getEnclosingMethod().getName();
+        System.out.println(nome);
+    }
 }

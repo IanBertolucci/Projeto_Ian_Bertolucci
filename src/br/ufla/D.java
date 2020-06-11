@@ -32,4 +32,9 @@ public class D {
         String nome = new Object(){}.getClass().getEnclosingMethod().getName();
         System.out.println(nome);
     }
+
+    public void MD3(){
+        String nome = new Object(){}.getClass().getEnclosingMethod().getName();
+        System.out.println(nome);
+    }
 }

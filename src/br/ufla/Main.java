@@ -20,5 +20,6 @@ public class Main {
 
         d.MD1();
         d.MD2();
+        d.MD3();
     }
 }

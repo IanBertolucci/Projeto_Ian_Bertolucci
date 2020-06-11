@@ -27,4 +27,9 @@ public class D {
     public void MD2(){
         System.out.println(D2);
     }
+    
+    public void MD4(){
+        String nome = new Object(){}.getClass().getEnclosingMethod().getName();
+        System.out.println(nome);
+    }
 }

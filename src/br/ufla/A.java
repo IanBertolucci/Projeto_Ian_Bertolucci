@@ -29,4 +29,8 @@ public class A {
         String nome = new Object(){}.getClass().getEnclosingMethod().getName();
         System.out.println(nome);
     }
+
+    public void MA3(){
+        System.out.println("Alteração da classe A.");
+    }
 }
